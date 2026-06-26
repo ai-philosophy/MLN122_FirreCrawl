@@ -1,0 +1,742 @@
+[
+  {
+    "url": "http://localhost:3002",
+    "status": 200
+  },
+  {
+    "url": "http://localhost:8080/api/tracker/offers/ingest",
+    "status": 405
+  },
+  {
+    "url": "https://cellphones.com.vn/iphone-16-pro-max.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/iphone-16-pro-max",
+    "status": 200
+  },
+  {
+    "url": "https://shopdunk.com/iphone-16-pro-max",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/apple-iphone-16-pro-max-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/iphone-16-pro.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/iphone-16-pro",
+    "status": 200
+  },
+  {
+    "url": "https://shopdunk.com/iphone-16-pro",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/apple-iphone-16-pro-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/iphone-16-plus.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/iphone-16-plus",
+    "status": 200
+  },
+  {
+    "url": "https://shopdunk.com/iphone-16-plus",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/apple-iphone-16-plus-128gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/iphone-16.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/iphone-16",
+    "status": 200
+  },
+  {
+    "url": "https://shopdunk.com/iphone-16",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/apple-iphone-16-128gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/iphone-15-pro-max.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/iphone-15-pro-max",
+    "status": 200
+  },
+  {
+    "url": "https://shopdunk.com/iphone-15-pro-max",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/apple-iphone-15-pro-max-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/iphone-15-pro.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/iphone-15-pro",
+    "status": 200
+  },
+  {
+    "url": "https://shopdunk.com/iphone-15-pro",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/apple-iphone-15-pro-128gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/iphone-15.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/iphone-15",
+    "status": 200
+  },
+  {
+    "url": "https://shopdunk.com/iphone-15",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/apple-iphone-15-128gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/iphone-14-pro-max.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/iphone-14-pro-max",
+    "status": 200
+  },
+  {
+    "url": "https://shopdunk.com/iphone-14-pro-max",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/apple-iphone-14-pro-max-128gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/samsung-galaxy-s24-ultra.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/samsung-galaxy-s24-ultra",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/samsung-galaxy-s24-ultra-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/samsung-galaxy-s24-plus.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/samsung-galaxy-s24-plus",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/samsung-galaxy-s24-plus-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/samsung-galaxy-s24.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/samsung-galaxy-s24",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/samsung-galaxy-s24-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/samsung-galaxy-s23-ultra.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/samsung-galaxy-s23-ultra",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/samsung-galaxy-s23-ultra-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/samsung-galaxy-z-fold-6.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/samsung-galaxy-z-fold-6",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/samsung-galaxy-z-fold6-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/samsung-galaxy-z-flip-6.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/samsung-galaxy-z-flip-6",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/samsung-galaxy-z-flip6-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/samsung-galaxy-a55.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/samsung-galaxy-a55",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/samsung-galaxy-a55-5g-128gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/xiaomi-14-ultra.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/xiaomi-14-ultra",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/xiaomi-14-ultra-512gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/xiaomi-14.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/xiaomi-14",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/xiaomi-14-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/xiaomi-redmi-note-13-pro.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/redmi-note-13-pro",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/xiaomi-redmi-note-13-pro-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/xiaomi-redmi-13c.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/xiaomi-redmi-13c",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/xiaomi-redmi-13c-128gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/oppo-reno-12-pro.html",
+    "status": 404
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/oppo-reno-12-pro",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/oppo-reno12-pro-512gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/realme-gt-6.html",
+    "status": 404
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/realme-gt-6",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/realme-gt6-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/asus-rog-phone-8-pro.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/asus-rog-phone-8",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/asus-rog-phone-8-pro-512gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/oneplus-12.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/oneplus-12",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/oneplus-12-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/vivo-v30-pro.html",
+    "status": 404
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/vivo-v30-pro",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/vivo-v30-pro-512gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/oppo-find-x7-ultra.html",
+    "status": 200
+  },
+  {
+    "url": "https://fptshop.com.vn/dien-thoai/oppo-find-x7-ultra",
+    "status": 200
+  },
+  {
+    "url": "https://www.phucanh.vn/oppo-find-x7-ultra-256gb.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-choi-game-logitech-g102-lightsync.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-logitech-g102-lightsync-rgb-black",
+    "status": 200
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-gaming-logitech-g102-gen-ii-lightsync-den",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-logitech-g102-lightsync-rgb-den.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-khong-day-logitech-g304.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-gaming-khong-day-logitech-g304-lightspeed-wireless",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-logitech-g304-lightspeed",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-logitech-g304-lightspeed.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-logitech-g502-hero.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-logitech-g502-hero",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-gaming-logitech-g502-hero",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-co-day-logitech-g502-hero.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-logitech-g502-x-plus-wireless.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-logitech-g502-x-plus-wireless",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-logitech-g502-x-plus-lightspeed",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-logitech-g502-x-plus-lightspeed.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-logitech-g-pro-x-superlight-2.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-logitech-g-pro-x-superlight-2-wireless-black",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-logitech-g-pro-x-superlight-2",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-logitech-g-pro-x-superlight-2.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-khong-day-logitech-mx-master-3s.html",
+    "status": 200
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-logitech-mx-master-3s-wireless-graphite",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-logitech-mx-master-3s",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-logitech-mx-master-3s.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-razer-deathadder-v3-pro.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-razer-deathadder-v3-pro-wireless-black",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-razer-deathadder-v3-pro",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-razer-deathadder-v3-pro.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-razer-basilisk-v3-pro-wireless.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-razer-basilisk-v3-pro-wireless",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-razer-basilisk-v3-pro",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-razer-basilisk-v3-pro.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-razer-viper-v3-hyperspeed.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-razer-viper-v3-hyperspeed-wireless",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-razer-viper-v3-hyperspeed",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-razer-viper-v3-hyperspeed.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-razer-orochi-v2.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-razer-orochi-v2-wireless-black",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-razer-orochi-v2",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-razer-orochi-v2.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-razer-cobra-pro-wireless.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-razer-cobra-pro-wireless",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-razer-cobra-pro",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-razer-cobra-pro.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-razer-deathadder-essential.html",
+    "status": 200
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-razer-deathadder-essential",
+    "status": 200
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-gaming-razer-deathadder-essential",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-co-day-razer-deathadder-essential.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-corsair-harpoon-rgb-pro.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-corsair-harpoon-rgb-pro",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-gaming-corsair-harpoon-rgb-pro",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-co-day-corsair-harpoon-rgb-pro.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-corsair-dark-core-rgb-pro.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-corsair-dark-core-rgb-pro-se-wireless",
+    "status": 200
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-corsair-dark-core-rgb-pro",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-corsair-dark-core-rgb-pro.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-corsair-m65-rgb-ultra.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-corsair-m65-rgb-ultra-wireless",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-gaming-corsair-m65-rgb-ultra",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-gaming-corsair-m65-rgb-ultra.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-steelseries-rival-3-wireless.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-steelseries-rival-3-wireless",
+    "status": 200
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-steelseries-rival-3",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-steelseries-rival-3.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-steelseries-aerox-3-wireless.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-steelseries-aerox-3-wireless-onyx",
+    "status": 200
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-steelseries-aerox-3",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-steelseries-aerox-3.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-steelseries-prime-wireless.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-steelseries-prime-wireless",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-steelseries-prime",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-steelseries-prime.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-asus-rog-harpe-ace-aim-lab.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-gaming-khong-day-asus-rog-harpe-ace-aim-lab-edition",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-asus-rog-harpe-ace",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-gaming-asus-rog-harpe-ace.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-asus-tuf-gaming-m3-gen-ii.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-asus-tuf-gaming-m3-gen-ii",
+    "status": 200
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-gaming-asus-tuf-gaming-m3",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-gaming-asus-tuf-gaming-m3-gen-ii.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-khong-day-dareu-em901x.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-dareu-em901x-rgb-wireless-black",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-dareu-em901x",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-gaming-khong-day-dareu-em901x.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-khong-day-dareu-a950.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-gaming-dareu-a950-wireless-docking-charger-black",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-dareu-a950",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-gaming-dareu-a950.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-glorious-model-o-wireless.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-glorious-model-o-wireless-matte-black",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-glorious-model-o",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-glorious-model-o.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-gaming-glorious-model-d-wireless.html",
+    "status": 404
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-glorious-model-d-wireless-matte-black",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-glorious-model-d",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-glorious-model-d.html",
+    "status": 404
+  },
+  {
+    "url": "https://cellphones.com.vn/chuot-khong-day-logitech-pebble-m350.html",
+    "status": 200
+  },
+  {
+    "url": "https://gearvn.com/products/chuot-logitech-pebble-m350-black",
+    "status": 404
+  },
+  {
+    "url": "https://tinhocngoisao.com/products/chuot-khong-day-logitech-pebble-m350",
+    "status": 404
+  },
+  {
+    "url": "https://www.phucanh.vn/chuot-khong-day-logitech-pebble-m350.html",
+    "status": 404
+  }
+]
