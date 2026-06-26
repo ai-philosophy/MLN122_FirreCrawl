@@ -359,8 +359,65 @@ public class PriceTrackerService {
         return details;
     }
 
+    private boolean isAccessoryMismatch(String targetProductName, String merchantProductName) {
+        if (targetProductName == null || merchantProductName == null) {
+            return false;
+        }
+        
+        String targetLower = targetProductName.toLowerCase();
+        String merchantLower = merchantProductName.toLowerCase();
+        
+        String[] accessoryKeywords = {
+            "ốp", "op ", "ốp lưng", "bao da", "kính cường lực", "cường lực", "dán màn hình", "miếng dán", 
+            "cáp", "sạc", "củ sạc", "adapter", "tai nghe", "dây đeo", "khung viền", "hộp đựng", 
+            "túi chống sốc", "mousepad", "lót chuột", "tấm di", "feet chuột", "grip tape", "đế chuột",
+            "case", "cover", "protector", "screen guard", "cable", "charger", "earphone", "strap", 
+            "sleeve", "accessory", "phụ kiện"
+        };
+        
+        for (String kw : accessoryKeywords) {
+            if (merchantLower.contains(kw) && !targetLower.contains(kw)) {
+                return true;
+            }
+        }
+        
+        return false;
+    }
+
+    private void validateOffer(OfferIngestDTO dto) {
+        if (dto.getCurrentPrice() == null) {
+            throw new IllegalArgumentException("Giá sản phẩm không được để trống");
+        }
+        
+        // 1. Kiểm tra lệch phụ kiện (Accessory mismatch)
+        if (isAccessoryMismatch(dto.getTargetProductName(), dto.getMerchantProductName())) {
+            throw new IllegalArgumentException("Sản phẩm không khớp: Phát hiện phụ kiện/phụ tùng (" 
+                + dto.getMerchantProductName() + ") thay vì sản phẩm chính (" + dto.getTargetProductName() + ")");
+        }
+        
+        // 2. Kiểm tra khoảng giá hợp lý theo danh mục
+        BigDecimal price = dto.getCurrentPrice();
+        if ("Điện thoại".equalsIgnoreCase(dto.getCategory())) {
+            if (price.compareTo(new BigDecimal("2000000")) < 0) {
+                throw new IllegalArgumentException("Mức giá điện thoại không hợp lý (dưới 2.000.000đ): " 
+                    + price + "đ. Có thể đây là phụ kiện hoặc tiền đặt cọc.");
+            }
+        } else if ("Chuột".equalsIgnoreCase(dto.getCategory())) {
+            if (price.compareTo(new BigDecimal("100000")) < 0) {
+                throw new IllegalArgumentException("Mức giá chuột không hợp lý (dưới 100.000đ): " 
+                    + price + "đ. Có thể đây là feet chuột hoặc lót chuột.");
+            }
+            if (price.compareTo(new BigDecimal("6000000")) > 0) {
+                throw new IllegalArgumentException("Mức giá chuột không hợp lý (trên 6.000.000đ): " + price + "đ.");
+            }
+        }
+    }
+
     @Transactional
     public MerchantOffer ingestOffer(OfferIngestDTO dto) {
+        // Run validation
+        validateOffer(dto);
+        
         Product product = null;
         if (dto.getTargetProductName() != null) {
             product = productRepository.findByName(dto.getTargetProductName()).orElse(null);
