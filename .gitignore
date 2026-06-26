@@ -61,3 +61,12 @@ _local/
 
 
 apps/api/src/lib/scrape-interact/*.md
+
+# Firecrawl upstream dirs — removed from git tracking, ignore on disk
+/apps/
+/examples/
+/firecrawl-cli/
+/firecrawl-cli-skills/
+/firecrawl-skills/
+/firecrawl-workflows/
+/img/
