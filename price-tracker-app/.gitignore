@@ -24,3 +24,21 @@ out/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Scraper: temp/debug/one-off scripts (không commit)
+scraper/rescrape-*.js
+scraper/debug-*.js
+scraper/insert-known-prices.js
+scraper/scrape-cellphones-*.js
+scraper/discover-more-urls.js
+scraper/test-*.js
+scraper/seed-*.js
+
+# Scraper: temp data files
+scraper/url_check_results.json
+scraper/phucanh_scraped_markdown.md
+scraper/*.html
+
+# Root temp data files
+*.json
+*.html
